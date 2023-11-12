@@ -1,0 +1,143 @@
+.header{
+    background-color: #E1EDE6;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 70px;
+    gap: 10px;
+    align-content: center;
+    grid-template-areas: 
+    "logo nav card";  
+}
+.header-logo{
+    grid-area: logo;
+    text-align: center;
+}
+.header-nav{
+    grid-area: nav ;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+}
+.header-card{
+    grid-area: card;
+    text-align: center;
+}
+.paintings{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    height: 70px;
+    gap: 10px;
+    align-content: center;
+    text-align: center;
+    color: #2C2D35;
+    font-size: 20px;
+}
+.main-bth{
+    display: grid;
+    grid-template-columns: 30% 25% 25% ;
+    height: 70px;
+    gap: 10px;
+}
+.main-button{
+    text-decoration: none;
+}
+.paintings-item,
+.team,
+.pictures-item{
+    text-align: center;
+}
+.podval{
+    background-color: #E1EDE6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    height: 115px;
+    gap: 10px;
+    align-content: center;
+    grid-template-areas:
+    "logo reprod novinki we ceti"
+    "numder reprod novinki we ceti"; 
+}
+.podval-logo{
+    grid-area: logo ;
+    color: #86928B ;
+    text-align: center;
+}
+.numder{
+    grid-area: numder;
+}
+.numders{
+    text-decoration: none;
+    color: #2C2D35;
+}
+.reprod{
+    grid-area: reprod ;
+    text-align: center;
+}
+.re{
+    list-style-type: none;
+    text-align: center;
+    color: #86928B ;
+}
+.novinki{
+    grid-area: novinki ;
+    list-style-type: none;
+    text-align: center;
+    color: #86928B ;
+}
+.We{
+    grid-area: we ;
+    list-style-type: none;
+    text-align: center;
+    gap: 10px;
+    color: #86928B ;
+}
+.ceti-image{
+    grid-area: ceti ;
+    text-align: center;
+}
+.collection{
+    background-image: url(./../assets/images/fleyta.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white ; 
+}
+.collection-text{
+    text-align: center;
+    width: 540px;
+    font-size: 27px;
+    font-weight: 500;
+    padding-left: 165px;
+    margin-top: 20px;
+}
+.collection-item{
+    text-align: center;
+    display: flex;
+    width: 421px;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 200px;
+    margin-top: -70px;
+}
+.collection-logo{
+    padding-left: 165px;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr  ;
+    height: 70px;
+    gap: 10px;
+    align-content: center;
+    text-align: center;
+    color: #2C2D35;
+    font-size: 20px;
+}
+.pictures-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    gap: 10px;
+}
+
+
